@@ -1,0 +1,31 @@
+
+states={"WA": "Washington", "AL": "Alabama", "FL": "Florida"}
+
+input= "WA"
+print states[input]
+
+a=71
+
+if (a@2=0):
+   print "Not prime"
+
+if (a@3=0):
+   print "Not prime"
+
+if (a@4=0):
+   print "Not prime"
+
+if (a@5=0):
+   print "Not prime"
+
+if (a@6=0):
+   print "Not prime"
+
+if (a@7=0):
+   print "Not prime"
+
+if (a@8=0):
+   print "Not prime"
+
+if (a@9=0):
+   print "Not prime"

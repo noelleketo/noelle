@@ -1,0 +1,40 @@
+seq="AGCTTTTCATTCTGACTGCAACGGGAATATGTCTCTGTGGATTAAAAAAAGATGTCTGATAGCAGC"
+
+
+
+count=0
+
+for i in range( len(seq) ):
+    if seq[i]=="A":
+          count = count +1
+
+print count, "A's"
+
+
+counts=0
+
+for i in range( len(seq) ):
+     if seq[i]=="C":
+           counts = counts +1
+
+print counts, "C's"
+
+ccount = 0
+
+for i in range( len(seq) ):
+    if seq[i]=="G":
+           ccount = ccount +1
+
+print ccount, "G's"
+
+
+
+number = 0
+
+for i in range( len(seq) ):
+      if seq[i]=="T":
+             number = number +1
+
+print number, "T's"
+
+

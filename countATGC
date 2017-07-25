@@ -1,0 +1,37 @@
+seq="ACGAGCAGAGGCAGCAGACTGAGCTACTTGGGTCAGCTACGTAGACGTAGCTTGTA"
+
+
+
+count=0
+
+for i in range( len(seq) ):
+    if seq[i]=="A":
+          count = count +1
+
+print float(count)/float(56)
+
+counts=0
+
+for i in range( len(seq) ):
+     if seq[i]=="C":
+           counts = counts +1
+
+print float(counts)/float(56)
+          
+ccount = 0
+
+for i in range( len(seq) ):
+    if seq[i]=="G":
+           ccount = ccount +1
+
+print float(ccount)/float(56)
+
+
+
+number = 0
+
+for i in range( len(seq) ):
+      if seq[i]=="T":
+             number = number +1
+
+print float(number)/float(56)
